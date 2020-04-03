@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <title>Table of Contents</title>
+  <page href="../contents/First_Topic.htm"></page>
+  <book navtitle="How_to_Use_the_Guide">
+    <page href="../contents/How_to_Use_the_Guide/How_to_Use_the_Guide.htm"></page>
+    <page href="../contents/How_to_Use_the_Guide/Application_Process.htm"></page>
+    <page href="../contents/How_to_Use_the_Guide/Getting_Started.htm"></page>
+  </book>
+  <book navtitle="Chapter_1">
+    <page href="../contents/Chapter_1/Configuration_of_Prerequisites_and_Master_Data.htm"></page>
+    <book navtitle="Prerequisites Configuration" href="../contents/Chapter_1/Prerequisities_Configuration.htm">
+      <page href="../contents/Chapter_1/Add_a_New_User_Role.htm"></page>
+      <page href="../contents/Chapter_1/Edit_an_Existing_User_Role_.htm"></page>
+      <page href="../contents/Chapter_1/Delete_an_Existing_User_Role.htm"></page>
+      <page href="../contents/Chapter_1/Copy_an_Existing_User_Role_to_New_User_Role.htm"></page>
+      <page href="../contents/Chapter_1/App_Configuration.htm"></page>
+    </book>
+    <book navtitle="Master Data Configuration" href="../contents/Chapter_1/Master_Data_Configuration.htm">
+      <page href="../contents/Chapter_1/User_Groups.htm"></page>
+      <page href="../contents/Chapter_1/User_Types.htm"></page>
+      <page href="../contents/Chapter_1/User_Message_Templates.htm"></page>
+    </book>
+  </book>
+  <book navtitle="Chapter_2">
+    <page href="../contents/Chapter_2/Chapter_2.htm"></page>
+    <book navtitle="User Registration" href="../contents/Chapter_2/User_Registration.htm">
+      <page href="../contents/Chapter_2/User_Registration.htm"></page>
+    </book>
+    <book navtitle="Operations Related to Users">
+      <page href="../contents/Chapter_2/Operations_Related_to_Registered_Users.htm"></page>
+      <page href="../contents/Chapter_2/User_Search(View_User_Details).htm"></page>
+      <page href="../contents/Chapter_2/Edit_Users.htm"></page>
+      <page href="../contents/Chapter_2/Delete_a_User.htm"></page>
+      <page href="../contents/Chapter_2/Hidden_Users.htm"></page>
+      <page href="../contents/Chapter_2/Reset_User_Password.htm"></page>
+      <page href="../contents/Chapter_2/Request_to_register_new_Password_.htm"></page>
+      <page href="../contents/Chapter_2/Convert_User_Type.htm"></page>
+      <page href="../contents/Chapter_2/Disable_Enable_a_User.htm"></page>
+      <page href="../contents/Chapter_2/Blacklisted_Users.htm"></page>
+      <page href="../contents/Chapter_2/Integrated_Apps.htm"></page>
+    </book>
+    <book navtitle="Bulk Data Import">
+      <page href="../contents/Chapter_2/Bulk_Data_Import.htm"></page>
+    </book>
+  </book>
+  <book navtitle="Chapter 3">
+    <page href="../contents/Chapter_3/Chapter_3.htm"></page>
+    <book navtitle="Reports"></book>
+    <page href="../contents/Chapter_3/Configure_Custom_Reports.htm"></page>
+    <page href="../contents/Chapter_3/Edit_Report_Design.htm"></page>
+    <page href="../contents/Chapter_3/View_Custom_Reports.htm"></page>
+    <page href="../contents/Chapter_3/View_User_Report.htm"></page>
+    <page href="../contents/Chapter_3/View_User_Role_Report.htm"></page>
+    <page href="../contents/Chapter_3/User_Login_Activity_Report_.htm"></page>
+  </book>
+</map>

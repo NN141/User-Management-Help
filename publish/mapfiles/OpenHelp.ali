@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aliaslist version="1.0">
+  <alias name="Introduction" value="1" link="../../contents/First_Topic.htm"></alias>
+  <alias name="Add_a_New_User_Role" value="2" link="../../contents/Chapter_1/Add_a_New_User_Role.htm"></alias>
+  <alias name="App_Configuration" value="3" link="../../contents/Chapter_1/App_Configuration.htm"></alias>
+  <alias name="Configuration_of_Prerequisites_and_Master_Data" value="4" link="../../contents/Chapter_1/Configuration_of_Prerequisites_and_Master_Data.htm"></alias>
+  <alias name="Copy_an_Existing_User_Role_to_New_User_Role" value="5" link="../../contents/Chapter_1/Copy_an_Existing_User_Role_to_New_User_Role.htm"></alias>
+  <alias name="Delete_an_Existing_User_Role" value="6" link="../../contents/Chapter_1/Delete_an_Existing_User_Role.htm"></alias>
+  <alias name="Edit_an_Existing_User_Role_" value="7" link="../../contents/Chapter_1/Edit_an_Existing_User_Role_.htm"></alias>
+  <alias name="Master_Data_Configuration" value="8" link="../../contents/Chapter_1/Master_Data_Configuration.htm"></alias>
+  <alias name="Prerequisities_Configuration" value="9" link="../../contents/Chapter_1/Prerequisities_Configuration.htm"></alias>
+  <alias name="User_Groups" value="10" link="../../contents/Chapter_1/User_Groups.htm"></alias>
+  <alias name="User_Message_Templates" value="11" link="../../contents/Chapter_1/User_Message_Templates.htm"></alias>
+  <alias name="User_Types" value="12" link="../../contents/Chapter_1/User_Types.htm"></alias>
+</aliaslist>

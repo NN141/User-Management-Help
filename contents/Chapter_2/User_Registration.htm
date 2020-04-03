@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>User Registration</title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css" />
+</head>
+<body>
+  <div class="wrappara">
+    <h1>User Registration</h1>
+    <div class="btn-diagram"><a href="Operations_Related_to_Registered_Users.htm">Back to Operations Related to Registered Users Diagram</a></div>
+     
+    <p>In User Management application, <strong>User registration</strong> is the main and the fundamental task. This is used to register each user in the system.</p>
+    <p> </p>
+    <div class="note">
+      <p><em><b>Note</b></em> – Make sure that you have configured the Prerequisites and required Master Data as explained in the <strong>Chapter 1</strong>, prior to start registering Users.</p>
+    </div>
+    <h2>Register a New User</h2>
+    <p>This section explains how to configure a new User in the system using the User Management application.</p>
+    <p> </p>
+    <div class="Attention">
+      <p><em><b>Attention</b></em> – User App’s New User Registration wizard allows configuring Users which belong to both <strong>Custom User Types</strong> and <strong>Default User Types</strong>. The wizard contains multiple tabs and the content and the tabs appear change dynamically based on the selected ‘User Type’.</p>
+      <p> </p>
+      <p><strong>e.g</strong>. <strong>If the selected User Type = Staff, a tab named Staff Details will appear in wizard.</strong></p>
+    </div>
+    <p> </p>
+    <p>To register a new <b>User</b> in the system;</p>
+    <ul>
+      <li>Click the <b>Settings</b> icon <strong> <img src="../assets/images/UMimages/Settingsicon.png" /> </strong>on the Home page and select <b>New User</b> under <b>Register </b>section. Or click <b>New User</b> button on the Home page. New User Registration wizard will appear.</li>
+      <li><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#">User Details tab</a>
+        <div class="droptext" data-targetname="drop-down1">
+          <ol style="list-style-type:lower-alpha ;position: relative;left:5%;">
+            <li>In the <b>First Name </b>and<b> Last Name</b> boxes, type the first and last names of the User accordingly.</li>
+            <li>Type <b>E-mail</b>, <b>Mobile</b> and <b>Office Phone</b> in the respective boxes.</li>
+            <li>In the <b>Site</b> list, select user’s Site.</li>
+            <li>Select the relevant <b>Custom</b> <b>User Type</b> from the given <b>User Type</b> list (with only the Custom User Types, e.g. Engineer).</li>
+            <li>Select the relevant <b>User Group</b>.</li>
+            <div class="tip">
+              <p><b>Tip</b> – For ‘Custom User Type’ configuration and ‘User Group’ configuration please refer to “User Types” and “User Groups” sections under ‘Configuration of Prerequisites’.</p>
+            </div>
+            <li>Click <b>Next&gt;&gt;&gt;.</b></li>
+          </ol>
+        </div>
+      </li>
+      <li><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#">Login Details tab</a>
+        <div class="droptext" data-targetname="drop-down2">
+          <ol type="a">
+            <li><b>Login required</b> – By default ‘Login required’ check box will be selected, which makes the User ID and Password fields enable. This is required if the User to be registered needs to login to the system. This ‘Login required’ option enables ‘User ID’ and ‘Password’ fields. Authorized personnel/admin who registers the new User needs to enter a ‘User ID’ for the new User and a ‘Password’ for the new User to login initially. This User ID and the Password will be used by the new user to login to the system (Later the User can change the password if required).</li>
+            <li><b>Allow user to manage password – </b>By default this checkbox is deselected. If you need to let the new user reset his/her own password from the initial login, select this ‘Allow user to manage password’ checkbox. Once selected, the ‘Password’ and the ‘Re-Type Password’ fields will be hidden and an option to send the Password Reset Notification to the user will appear.
+              <p></p>
+              <p>Clear the checkbox to disable the option, where the Admin enters the initial password to the user account when the user account is being configured.</p>
+            </li>
+            <li> In the <b>User ID</b> box, type a unique ID for the User.</li>
+            <li>In the <b>Password</b> box, type the password and re-enter the password in the <b>Re-Type Password </b>box<b>. </b>(These fields will<b> </b>be available if the<b> ‘Login required’ </b>checkbox is<b> <u>selected</u> </b>and<b> </b>the<b> ‘Allow user to manage the password’ </b>checkbox is <b><u>not</u></b> <b><u>selected</u> </b>only<b>. </b>The Authorized user who registers the new user shall click the<b> Generate New Password </b>link<b> </b>to generate new password and display on respective fields.</li>
+            <div class="note">
+              <p><em><b>Note</b></em> – Your password should match the following criteria of Password Policy:
+                • Password length should be between 8-16 characters.
+                • Password should contain at least one numeric.
+                • Password should contain at least one special character (alphanumeric).
+                • Password should contain at least one Upper-case letter.</p>
+            </div>
+            <div class="tip">
+              <p><em><b>Tip</b></em> –
+                <img src="../assets/images/UMimages/viewpwdicon.PNG" /><img height="19" src="../assets/images/viewpwdicon.PNG" width="25" /> Click this to view the entered password.
+                <img height="19" src="../assets/images/hidepwdicon.PNG" width="25" /> Click this to hide the entered password.
+                <img height="19" src="../assets/images/quickinfoicon.PNG" width="25" /> Click this icon to view the quick info on Password policy criteria.</p>
+            </div>
+            <li>In the <b>Identification Number</b> box, type a unique number to identify the respective User. This number will be used to validate and figure out required users in the system in User blacklisting.</li>
+            <div class="note">
+              <p><em><b>Note</b></em> – If User Blacklisting function is enabled (<b>Enable User Blacklist </b>checkbox on the <b>General</b> tab of App Configuration page <b><u>is selected</u></b>), Identification Number will be mandatory in New User Registration wizard. </p>
+              <p>If the <b><u>Enable User Blacklist</u></b> checkbox in App Configuration is <b><u>not</u></b> selected, Identification Number field will be optional.</p>
+            </div>
+            <li>Click <strong>Next&gt;&gt;&gt;.</strong> You will be directed to the next tab which is specific to the selected <strong>User Type</strong>. E.g. If you have selected “Landlord User” as the <strong>User Type</strong> on the <strong>User Details</strong> tab, ‘Landlord User Details’ tab will be displayed. This is an optional tab, which appears based on the selected <strong>User Type</strong>. </li>
+            <li>Optional tabs will appear based on the selected <b>User Type. </b>Fill the Optional tab and click<b> Next&gt;&gt;&gt;. </b>You will be directed to the <b>Optional Settings</b> tab.</li>
+          </ol>
+          <table border="1" class="usertable">
+            <colgroup>
+              <col width="30%" />
+              <col width="20%" />
+              <col width="45%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                <th><em> If the selected User Type on   the User Details tab is;</em></th>
+                <th><em>Optional Tab Name</em></th>
+                <th><em> Fields</em></th>
+              </tr>
+              <tr>
+                <td>
+                  <p><strong>Tenant User</strong></p>
+                </td>
+                <td>
+                  <p>Tenant User Details</p>
+                </td>
+                <td>
+                  <p>Select the Tenant.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><strong>Landlord User</strong></p>
+                </td>
+                <td>
+                  <p>Landlord User Details</p>
+                </td>
+                <td>
+                  <p>Select the Landlord.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><strong>Caterer User</strong></p>
+                </td>
+                <td>
+                  <p>Caterer User Details</p>
+                </td>
+                <td>
+                  <p>Select the Caterer.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><strong>Vendor User</strong></p>
+                </td>
+                <td>
+                  <p>Vendor User Details</p>
+                </td>
+                <td>
+                  <p>Select the Vendor.</p>
+                  <p>Select the Technician checkbox to make the respective user a Technician.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><strong>Staff</strong></p>
+                </td>
+                <td>
+                  <p>Staff User Details</p>
+                </td>
+                <td>
+                  <p><b>Department:</b> Department that the user belongs to</p>
+                  <p><b>Work Location:</b> Location where the user works</p>
+                  <p><strong>Report to:</strong> To whom that the user reports to</p>
+                  <p><strong>Employee Number:</strong> Employee No of the Staff user</p>
+                  <p><strong>Designation:</strong> Title/Designation of the staff user</p>
+                  <p><strong>VIP </strong>: Select this to make the User a VIP user</p>
+                  <p><strong>Technician:</strong> to make the User a technician</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </li>
+      <li><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#">Other Settings tab</a>
+        <div class="droptext" data-targetname="drop-down3">
+          <ol type="a">
+            <li><b>Display Settings</b>: Select the ‘<b>Date Format’</b>, ‘<b>Time Format</b>’ and ‘<b>Currency Format</b>’ accordingly. Default formats will be selected automatically. These formats will be applied to Date, Time and Currency fields respectively which appear in the applications.</li>
+            <li> Select the language that the User prefers to use the applications </li>
+            <li><b>Notification Settings:</b>
+              <ul>
+                <li>If the respective <b>User</b> needs to be notified via e-mail, select the <b>Receive messages by email</b> check box.</li>
+                <li>If the respective <b>User</b> needs to be notified via short messages/texts, select the <b>Receive messages as texts</b> check box.</li>
+                <li>To notify the respective <b>User</b> using both emails and texts, select both check boxes.</li>
+              </ul>
+            </li>
+            <li>Click<b> Register</b></li>
+            <div class="pathexp">
+              <p><em><strong> </strong></em><u><em><strong>Setting under App Configuration</strong></em></u></p>
+              <p>The<strong></strong> <em>“Date, Time and Currency Format” </em>displayed here will be based on the configuration done under the <em>Default Section</em> on the <em>App Configuration Page</em><strong>(<em>Settings <strong><img src="../assets/images/UMimages/Settingsicon.png" /></strong><span style="color:#0070c0"><img src="../assets/images/UMimages/Arrowicon.png" style="width: 16px; height: 16px;" /> </span>Manage <span style="color:#0070c0"><img src="../assets/images/UMimages/Arrowicon.png" style="width: 16px; height: 16px;" /></span> App Configuration<span style="color:#0070c0"><img src="../assets/images/UMimages/Arrowicon.png" style="width:16px; height:16px" /></span> Password Configu</em></strong><strong><em>ration</em>).</strong></p>
+            </div>
+            <div class="note">
+              <p><em><b>Note</b></em> – Why do we need to configure Date Format/Time Format/Currency Format?
+                All <b>dates, times</b> and currencies in all the apps of the system used by the respective user will be in the “Date Format”, “Time Format” and “Currency Format” respectively, which are configured here. </p>
+            </div>
+          </ol>
+          <ul class="disc">
+            <li>Once the <b>Register</b> button is clicked new user will be registered in the system and a message will be displayed stating that user is registered. A link named <b>View Details</b> which opens the respective <b>Users</b> detailed page with relevant tabs will be diaplyed. Another link named ‘Send Welcome Message’ will be displayed as well. Once this is clicked an email will be sent to the respective User with the Welcome message and instructions.</li>
+            <li>Click the <b>View Details </b>link. Respective User’s detailed page will appear with <b>User Details </b>tab, <b>User Roles</b> tab, etc. Other tabs will be populated according to the <b>User type</b> of the User and other enabled Apps. (e.g. If User Type is Technician, <b>Service Technician</b> tab will be displayed, If the <b>Space Management App</b> is enabled, <b>Seat Details</b> tab will be displayed.)</li>
+          </ul>
+          <div class="tip">
+            <p><em><b>Tip</b></em> – For more details on configuring and editing other details of User, please refer Edit User section.</p>
+          </div>
+          <div class="note">
+            <p><em><b>Note</b></em> – <b>User Details</b> and <b>User Roles</b> tabs are common for all Users. Other tabs will appear according to the User Type and the enabled other Apps. The “User Roles” tab displays the respective User’s User Roles. </p>
+            <p>After a new user is registered, the “User Roles” tab will be empty till relevant User Roles are configured.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <nav class="anchorstyle">
+      <h2>Previous Topic &gt;&gt; <a href="Configuration_of_Prerequisites_and_Master_Data.htm" style="color:#4682B4;"> Chapter 1</a></h2>
+      <h3>Up Next &gt;&gt;</h3>
+      <p><a href="Operations_Related_to_Registered_Users.htm">Operations Related to Registered Users</a></p>
+      <p> </p>
+      <p><strong><a href="Chapter_2.htm">Back to Chapter 2 &gt;</a></strong></p>
+    </nav>
+  </div>
+</body>
+</html>

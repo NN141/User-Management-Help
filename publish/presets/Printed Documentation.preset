@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <brs type="array"></brs>
+    <glossary>
+      <name>Glossary</name>
+      <path>../../glossary/Glossary.glo</path>
+    </glossary>
+    <index type="boolean">true</index>
+    <mapFiles type="array"></mapFiles>
+    <masterpage></masterpage>
+    <toc>
+      <name>Default</name>
+      <path>../../toc/Default.toc</path>
+    </toc>
+  </content>
+  <defaultTopic></defaultTopic>
+  <name>Printed Documentation</name>
+  <outputPath>C:/Users/DocumentTeam/Documents/My RoboHelp Projects/outputs/User Management/Printed Documentation</outputPath>
+  <pdf>
+    <margin type="array">
+      <marginitem type="number">10</marginitem>
+      <marginitem type="number">10</marginitem>
+      <marginitem type="number">10</marginitem>
+      <marginitem type="number">10</marginitem>
+    </margin>
+    <multiHeaders type="boolean">false</multiHeaders>
+  </pdf>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+  </search>
+  <sitemap>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+    <use type="boolean">false</use>
+  </sitemap>
+  <starterPage>Default.pdf</starterPage>
+  <title>User Management</title>
+  <type>pdf</type>
+</preset>

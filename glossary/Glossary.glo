@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="Glossary">          
+<title>Glossary Definitions</title>        
+<glossentry id="Glossary_Currency_Format">
+<glossterm>Currency Format</glossterm>
+<glossdef>Format of Currency in all the apps used by a respective user. Currency Format to be used in all the apps used by a particular user is selected under that user’s configuration page.
+e.g. 123,456.78
+</glossdef></glossentry>
+<glossentry id="Glossary_Custom_User Types">
+<glossterm>Custom User Types</glossterm>
+<glossdef>Custom User Type is a group that categorizes the User Types that are configured by the users in User App.</glossdef></glossentry>
+<glossentry id="Glossary_Date_Format">
+<glossterm>Date Format</glossterm>
+<glossdef>Format of Date in all the apps used by a respective user. Date Format to be used in all the apps used by a particular user is selected under that user’s configuration page.
+e.g.&lt;YYYY/MM/DD&gt;
+</glossdef></glossentry>
+<glossentry id="Default_Default_User Types">
+<glossterm>Default User Types</glossterm>
+<glossdef>Default User Type is a group that categorizes the user types that are configured under respective App and then they will be displayed under User Types --&gt; Default User Types in the User App, e.g. User Type ‘Staff’ comes from the Organization App.</glossdef></glossentry>
+<glossentry id="Glossary_System_User">
+<glossterm>System User</glossterm>
+<glossdef>Person who operates application/applications in the system</glossdef></glossentry>
+<glossentry id="Glossary_Time_Format">
+<glossterm>Time Format</glossterm>
+<glossdef>Format of Time in all the apps used by a respective user. Time Format to be used in all the apps used by a particular user is selected under that user’s configuration page.
+e.g. 24, 12
+</glossdef></glossentry>
+<glossentry id="Glossary_User_Group">
+<glossterm>User Group</glossterm>
+<glossdef>User Group is used to configure a group containing common features and User Roles for Apps.</glossdef></glossentry>
+<glossentry id="Glossary_User_Role">
+<glossterm>User Role</glossterm>
+<glossdef>User Role is a set of functional permissions that may be granted to a predefined subset of System Users. This is used to restrict the access to system operations/features.
+e.g. Administrator
+</glossdef></glossentry>
+<glossentry id="Default_User_Type">
+<glossterm>User Type</glossterm>
+<glossdef>User Type is a category that is used to group users according to the job or task they perform, e.g., Administrator, Technician.
+User Types are divided into two groups namely Default User Type and Custom User Types. 
+</glossdef></glossentry>
+<glossentry id="Glossary_Hidden_Users">
+<glossterm>Hidden Users</glossterm>
+<glossdef>System Users that are removed from the active User Search List without deleting as they are currently in use. Hidden users will not be displayed in User search page for future operations.</glossdef></glossentry></glossgroup>
